@@ -6,3 +6,8 @@
 /* Sprite regions preserve the generated transparent artwork without modifying it. */
 .tree-sprite{width:220px;height:240px;background-size:424.43px 424.43px;background-position:-6.77px 0}.flower-sprite{width:90px;height:90px;background-size:217.04px 217.04px;background-position:-121.15px -27.69px}.butterfly-sprite{width:65px;height:49px;background-size:120.76px 120.76px;background-position:-2.89px -69.33px}.smoke-sprite{width:70px;height:86px;background-size:199.5px 199.5px;background-position:-122.5px -109.77px}
 .section-scene{position:relative;height:230px;margin:0 0 24px;border-radius:15px;overflow:hidden;background:#e6d6b6}.section-scene img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 48%}.section-scene figcaption{position:absolute;bottom:12px;left:14px;right:14px;width:fit-content;max-width:calc(100% - 28px);background:#fff5e4f2;border-radius:7px;padding:6px 10px;font:bold 12px/1.5 monospace;color:var(--ink)}.guide-chapter>.section-scene{height:240px}.section-scene+.short,.section-scene+.section{margin-top:0}@media(max-width:700px){.section-scene,.guide-chapter>.section-scene{height:190px}.section-scene figcaption{font-size:12px}}@media print{.section-scene{display:none}}
+
+
+/* CV contact actions */
+.contact-links{display:flex;flex-wrap:wrap;gap:12px 20px;margin:20px 0}.contact-links a{color:inherit;text-underline-offset:4px;overflow-wrap:anywhere}.top-actions{flex-wrap:wrap}.toolkit p{overflow-wrap:anywhere}
+.timeline-meta{flex-wrap:wrap;gap:6px 14px}@media(max-width:600px){.topbar{height:auto;min-height:100px}.top-actions{justify-content:flex-start;row-gap:8px}.topbar .wordmark small{max-width:270px;line-height:1.4}}
